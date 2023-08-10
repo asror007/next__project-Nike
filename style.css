@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}.container{
+    width: 1333px;
+    height: 782px;
+    margin:auto;
+}.boxes__img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}.boxes{
+    position: relative;
+}.boxes__box{
+    display: flex;
+    position: absolute;
+    width: 1013px;
+    height: 548px;
+    background: #fff;
+    border-radius: 30px;
+    top: 100px;
+    margin-left: 200px;
+}.box__image{
+    padding: 30px 0 67px 35px;
+}.box__title{
+    font-size: 26px;
+    font-weight: 400;
+    color: #1345F9;
+    padding: 15px 0 0 38px;
+}.box__text{
+    display: flex;
+    flex-direction: column;
+    font-size: 29px;
+    font-weight: 400;
+    color: #1345F9;
+    letter-spacing: 11px;
+    margin-left: 30px;
+}.box__desc-title{
+    color: #1345F9;
+    font-size: 25px;
+    font-weight: 400;
+}.box__desc{
+    padding: 50px 102px  0 72px;
+}.box__desc-title2{
+    color: #000;
+    font-size: 34.412px;
+    font-weight: 400;
+}.box__desc-title2::after{
+    content: "$ 150";
+    color: #1345F9;
+    display: block;
+    font-size: 38px;
+    font-weight: 400;
+}.box__desc-text{
+    color: #000;
+    font-size: 21px;
+    font-weight: 400;
+}.box__desc-btn{
+    color: #fff;
+   font-size: 25px;
+   font-weight: 400;
+   padding: 12px 90px;
+   border-radius: 50px;
+   background: #1345F9;
+   text-transform: capitalize;
+}
